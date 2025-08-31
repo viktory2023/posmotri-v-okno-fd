@@ -168,7 +168,7 @@ ol {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-  object-fit: contain;
+  object-fit: cover; /*большое спасибо!:) Совсем забыла про это*/
 }
 
 .title {
@@ -188,7 +188,7 @@ ol {
   display: block;
   text-decoration: none;
   color: #ffffff;
-  max-width: 390px; /*увидела рассхождения, но не понимаю, что сделать. размеры макета соблюдала*/
+  max-width: 390px;
 }
 
 .content__video-card-description-container {
@@ -271,7 +271,7 @@ ol {
 }
 
 .button:active,
-.content__card-link_current:active {
+.content__card-link:active {
   background-color: #545050;
 }
 
