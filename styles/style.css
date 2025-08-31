@@ -168,7 +168,7 @@ ol {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-  object-fit: cover; /*большое спасибо!:) Совсем забыла про это*/
+  object-fit: cover;
 }
 
 .title {
@@ -271,7 +271,7 @@ ol {
 }
 
 .button:active,
-.content__card-link:active {
+.content__card-link_current {
   background-color: #545050;
 }
 
